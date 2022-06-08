@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css" /> 
+    <title>Css Demo</title>
+</head>
+
+<style>
+    /* Writing CSS using Embedded method */
+    /* h1 {
+        color: red;
+        background-color: blue;
+    } */
+
+</style>
+
+<body>
+    <!-- inline Css styling example. you can uncomment line #22 -->
+    <!-- <h1 style="color: red">Hello Worldd!</h1>    -->
+
+    <h1>Hello Worldd!</h1>
+    
+    <!-- 
+        Definitions: 
+            class: is used to give names the elements. we can give same class name to multiple HTML elements.
+            id: is used to give name the elements as well, but usually there is only 1 element with an ID name, you cannot have
+                multiple HTML elements with same ID.    
+            id vs class: there can be multiple elements with same class name and there can only be single element with same ID.
+        
+        Make all list elements orange
+    -->
+    <ul class="fruits">
+        <li>Apple</li>
+        <li>Banana</li>
+        <li>Mango</li>
+    </ul>
+
+    <ul class="fruits">
+        <li>Guva</li>
+        <li>Strawberry</li>
+        <li>Drgon fruit</li>
+    </ul>
+
+    <ul id="animals">
+        <li>Cat</li>
+        <li>Dog</li>
+        <li>Elephant</li>
+    </ul>
+
+    <hr>
+    <!-- 
+        TOPIC: Box Models (block level and inline level)
+     -->
+    <h2>Box Model</h2>
+    <!-- block level -->
+    <div class="block">
+        Hello World!
+    </div>
+    <div>
+        2nd Hello World!
+    </div>
+
+    <!-- Inline -->
+    <span class="span">Hello from span</span>
+    <span>2nd Hello from span</span>
+    <!-- <span>World</span> -->
+    
+    <hr>
+    <h2>Images</h2>
+    <img src="https://st1.latestly.com/wp-content/uploads/2021/08/31-6.jpg" alt="cats">
+
+    <hr>
+    <!-- 
+        TOPIC: Margin and Padding
+     -->
+    <h2>Margin and Padding</h2>
+
+    <div id="boxes">
+        <div id="box1">A</div>
+        <div id="box2">B</div>
+    </div>
+
+    <div>
+        Lorem, ipsum dolor sit amet <span class="make-it-block">a word</span> adipisicing elit. Autem iusto deleniti quidem veniam laudantium laboriosam dolores, tempora harum eligendi nam, officiis quibusdam ratione ipsum. Quas perspiciatis labore voluptatem cum voluptates ducimus sit perferendis, facere modi omnis laboriosam nobis dolore, nihil tempora accusantium. Reiciendis vitae itaque aperiam tempora sint unde sunt commodi, quibusdam voluptatibus, tenetur suscipit natus illum quis. Veniam, temporibus.
+    </div>
+
+</body>
+</html>

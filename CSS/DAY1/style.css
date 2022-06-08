@@ -1,0 +1,87 @@
+/* 
+    All properties: https://www.w3schools.com/cssref/pr_border.asp
+*/
+
+body {
+    /* background-color: aquamarine; */
+}
+
+/* Selectors */
+h1 {
+    /* 
+        -> whatever we write inside the curly braces are called "Css Properties"
+     */
+    /* key: valu; */
+    color: red;
+    background-color: blue;
+}
+
+li {
+    /* color: orange;  */
+}
+
+/* fruits class element */
+.fruits {
+    /* Change text color */
+    color: orange; 
+}
+/* animals ID element */
+#animals {
+    color: red;
+}
+
+/* 
+    TOPIC: Box Model
+*/
+.block {
+    background-color: yellow;
+}
+.span {
+    background-color: green;
+
+}
+
+img {
+    /* Set width of the image */
+    width: 300px;
+    /* set border-raduis to make the image rounded */
+    border-radius: 100px;
+    /* width, type or border, color */
+    border: 10px solid yellow;
+}
+
+
+/* 
+    TOPIC: Margin and Padding
+*/
+#boxes {
+    height: 100px;
+    background-color: skyblue; 
+    /* Flex:  turns block level element to inline level elemnt */
+    display: flex;
+}
+
+/* Multiple selectors */
+#box1, 
+#box2 {
+    height: 50px;
+    background-color: red;
+    width: 75px;
+
+    margin: 10px;
+    /* margin: 10px 10px 10px 10px; */
+    
+    /* padding: 10px; */
+    padding: 20px 10px 10px 10px;
+}
+#box2 
+{
+    background-color: orange;
+    /* margin: 20px;  */
+    /* padding: 20px;  */
+}
+
+.make-it-block {
+    /* display: block; */
+    display: inline;
+}
